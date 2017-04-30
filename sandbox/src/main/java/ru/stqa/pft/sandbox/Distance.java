@@ -6,9 +6,9 @@ package ru.stqa.pft.sandbox;
 public class Distance {
     public static void main(String[] args) {
         Point pointA = new Point(1, 6);
-        Point pointB = new Point(1, 12);
+        Point pointB = new Point(1, 9);
 
-        System.out.println("Distance between a and b = " + Point.distance(pointA, pointB));
+        System.out.println("Distance between a and b = " + pointA.distance(pointB));
     }
 
 }

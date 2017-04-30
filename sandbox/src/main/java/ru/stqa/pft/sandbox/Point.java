@@ -12,7 +12,7 @@ public class Point {
         this.b = b;
     }
 
-    public static double distance(Point pointA, Point pointB) {
-                return Math.sqrt((pointA.a - pointB.a) * (pointA.a - pointB.a) + (pointA.b - pointB.b) * (pointA.b - pointB.b));
+    public double distance(Point pointA) {
+                return Math.sqrt((pointA.a - this.a) * (pointA.a - this.a) + (pointA.b - this.b) * (pointA.b - this.b));
     }
 }
